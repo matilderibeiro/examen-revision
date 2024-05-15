@@ -3,6 +3,10 @@
 // ==================================== */
 
 :root {
+  --black: #000;
+  --red: #f44336;
+  --dark-blue: #1d2d44;
+  --light-blue: #748cab;
 }
 
 /* ====================================
@@ -47,16 +51,25 @@ a {
   text-decoration: none;
 }
 
-.row + .row {
-  margin-top: 16px;
+h2 {
+  color: var(--dark-blue);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 45px;
 }
 
-.row > .col,
-.row > [class^="col-"] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
+h3 {
+  color: var(--light-blue);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+p {
+  color: var(--black);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
 }
 
 /* ====================================
